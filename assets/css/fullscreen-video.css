@@ -1,0 +1,44 @@
+/* File: ../assets/css/fullscreen-video.css */
+
+/* Fullscreen Video Overlay */
+.fullscreen-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+  }
+  
+  .video-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .video-container video {
+    max-width: 90%;
+    max-height: 80%;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .close-btn:hover {
+    background: #cc0000;
+  }
+  
